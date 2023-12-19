@@ -1,0 +1,19 @@
+echo "# html-css" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mertcash61/html-css.git
+git push -u origin main
+
+
+yeni bir repoya eklemek için
+git remote remove origin
+ardından kontrol için
+git remote -v
+
+yapılan güncellemeler ve ardında repoya eklemek için
+
+git commit -m "commit cümlesi"
+git add .
+git push -u origin main
