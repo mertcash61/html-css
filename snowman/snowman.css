@@ -1,0 +1,9 @@
+.globe{
+    width: 40vw;
+    height: 40vw;
+    outline: 1vmin solid gold;
+    border-radius: 50%;
+    display: flex;
+    background: /* CLOUDS */
+    radial-gradient(#fff 0 70%, #0000 0 100%) top -8% left
+}

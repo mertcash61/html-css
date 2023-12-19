@@ -1,0 +1,16 @@
+.card__price{
+    float: right;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card__title{
+    margin: 35px 0 20px;
+    font-size: 15px;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.card__logo{
+    width: 50px;
+    height: auto;
+}

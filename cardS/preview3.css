@@ -1,0 +1,14 @@
+.card__image{
+    z-index: 1;
+    position: absolute;
+    top: -290px;
+    left: -30px;
+    width: 125%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+}
+.card__will-animate{
+    will-change: transform;
+}

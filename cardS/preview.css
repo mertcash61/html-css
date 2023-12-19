@@ -1,0 +1,16 @@
+.inspired-by{
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.card__header{
+    position: relative;
+    height: 170px;
+    padding: 30px 30px 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: #fff;
+}
