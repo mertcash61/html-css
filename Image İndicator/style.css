@@ -1,0 +1,18 @@
+.menu ul li:nth-child(1).active ~ .indicator{
+    transform: ranslateY(calc(70px * 0));
+}
+.menu ul li:nth-child(2).active ~ .indicator{
+    transform: ranslateY(calc(70px * 1));
+}
+.menu ul li:nth-child(3).active ~ .indicator{
+    transform: ranslateY(calc(70px * 2));
+}
+.menu ul li:nth-child(4).active ~ .indicator{
+    transform: ranslateY(calc(70px * 3));
+}
+.menu ul li:nth-child(5).active ~ .indicator{
+    transform: ranslateY(calc(70px * 4));
+}
+.menu ul li:nth-child(1).active ~ .indicator::before{
+    background: #f53b57;
+}
