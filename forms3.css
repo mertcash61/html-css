@@ -1,0 +1,14 @@
+.box button{
+    background: linear-gradient(to right, #00fffc,#cb7d10);
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    width: 330px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+.box p span{
+    cursor: pointer;
+}
