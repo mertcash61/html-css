@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic HTML Element Addition</title>
+    <style>
+        #myDiv{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="addDiv()">Aff HTML Element</button>
+    <div id="container"></div>
+    <script>
+        function addDiv(){
+            var newDiv = document.createElement("div");
+            newDiv.setAttribute("id", "myDiv");
+            document.getElementById("container").appendChild(newDiv);
+        }
+    </script>
+</body>
+</html>
