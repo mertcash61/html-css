@@ -1,0 +1,19 @@
+.container .strengthMeter::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    transition: 0.5s;
+    background: #f00;
+}
+
+.container.weak .strengthMeter::before{
+    width: 10%;
+    background: #ff00;
+    filter: drop-shadow(0 0 5px #f00) drop-shadow(0 0 10px #f00) drop-shadow(0 0 20px #eedc3d);
+}
+
+.container.strong .stregthMeter::before{
+    width: 100%;
+    background: #18e605;
+    filter: drop-shadow(0 0 5px #18e605) drop-shadow(0 0 10px #18e605) drop-shadow(0 0 20px #18e605);
+}

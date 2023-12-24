@@ -1,0 +1,24 @@
+.show{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    background: #333;
+    border: 6px solid #222;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.show::before{
+    content: "Show";
+    font-size: 0.6em;
+    color: aliceblue;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.show.hide::before{
+    content: "Hide";
+}
