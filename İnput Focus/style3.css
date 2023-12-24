@@ -1,0 +1,31 @@
+.bar:before{
+    left: 50%;
+}
+.bar:after{
+    right: 50%;
+}
+.input:focus ~ .bar:before,
+.input:focus ~ .bar:after{
+    width: 50%;
+}
+.highLight{
+    position: absolute;
+    height: 60%;
+    width: 0px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+.input:focus ~ .highLight{
+    animation: input-focyus 0.5s ease;
+}
+@keyframes inpt-focus{
+    from{
+        background: #1486d7;
+    }
+    to{
+        width: 185px;
+        background: transparent;
+    }
+}
