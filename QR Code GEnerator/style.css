@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    color: #fff;
+}
+
+.wrapper{
+    height: 265px;
+    max-width: 410px;
+    background: #222;
+    border-radius: 7px;
+    padding: 20px 25px 0;
+    transition: height 0.2s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+.wrapper.active{
+    height: 530px;
+}
+
+header h1{
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+}
+
+header p{
+    margin-top: 5px;
+    color: #aaa;
+    font-size: 16px;
+}
