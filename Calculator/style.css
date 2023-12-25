@@ -1,0 +1,21 @@
+button{
+    border: none;
+    background: none;
+    color: dimgrey;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.calculator{
+    width: 220px;
+    height: 430px;
+    background: #434348;
+    border-radius: 25px;
+    position: absolute;
+    margin: auto;
+   top: 50%;
+   margin-top: -215px;
+   left: 50%;
+   margin-left: -110px;
+}
