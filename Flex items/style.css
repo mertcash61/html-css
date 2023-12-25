@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 1rem;
+
+    gap: 1rem;
+
+
+}
+
+.item{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
