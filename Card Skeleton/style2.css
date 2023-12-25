@@ -1,0 +1,30 @@
+.header .details{
+    margin: block;
+}
+.details span{
+    display: block;
+    background: #656871;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.details .name{
+    height: 15px;
+    width: 100px;
+}
+.details .about{
+    height: 13px;
+    width: 100px;
+    margin-top: 10px;
+}
+.card .description{
+    margin: 25px 0;
+}
+.description .lien{
+    background: #656871;
+    border-radius: 10px;
+    height: 13px;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+}

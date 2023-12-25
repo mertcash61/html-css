@@ -1,0 +1,17 @@
+.desription .line-1{
+    width: calc(100% - 15%);
+}
+.description .line-3{
+    width: calc(100% -40%);
+}
+.card .btns{
+    display: flex;
+}
+.card .btns .btn{
+    height: 45px;
+    width: 100%;
+    background: #656871;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
