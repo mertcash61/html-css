@@ -1,0 +1,18 @@
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.name{
+    flex: 1 0 130px;
+}
+
+.email{
+    flex: 1 0 130px;
+}
+
+button{
+    flex: 1 0 40x;
+    background: #0d6efd;
+}
